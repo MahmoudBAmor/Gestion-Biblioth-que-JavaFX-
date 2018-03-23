@@ -1,0 +1,6 @@
+Projet java Gestion Bibliothèque
+Réalisé par: Mahmoud Ben Amor
+		2 Info B
+		2017 / 2018
+Nom Utilisateur par défaut : admin
+Mot de Passe par défaut : admin

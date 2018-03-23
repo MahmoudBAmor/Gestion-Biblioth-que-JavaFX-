@@ -1,0 +1,1 @@
+{"nbJoursPretMax":14,"penaliteParJour":1.0,"NomUtilisateur":"admin","motDePasse":"d033e22ae348aeb5660fc2140aec35850c4da997"}

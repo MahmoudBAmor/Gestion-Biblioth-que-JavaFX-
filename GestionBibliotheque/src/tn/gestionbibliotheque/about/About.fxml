@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="403.0" prefWidth="277.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.gestionbibliotheque.about.AboutController">
+    <stylesheets>
+        <URL value="@about.css" />
+    </stylesheets>
+   <children>
+      <ImageView fitHeight="165.0" fitWidth="160.0" layoutX="68.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/me.jpg" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="97.0" layoutY="346.0" onAction="#LoadLinkedin" prefHeight="23.0" prefWidth="160.0" text="www.linkedin.com/in/mahmoud-ben-amor-276563128" />
+      <Label layoutX="50.0" layoutY="211.0" prefHeight="17.0" prefWidth="127.0" text="Mahmoud Ben Amor" />
+      <Label layoutX="50.0" layoutY="240.0" prefHeight="17.0" prefWidth="192.0" text="Etudiant 2eme Année ENICarthage " />
+      <Label layoutX="50.0" layoutY="269.0" prefHeight="17.0" prefWidth="127.0" text="2017/2018" />
+      <Label layoutX="50.0" layoutY="295.0" prefHeight="17.0" prefWidth="127.0" text="Tel : +216 27 061 701" />
+      <Label layoutX="50.0" layoutY="321.0" prefHeight="17.0" prefWidth="149.0" text="Email : mba95@hotmail.fr" />
+      <ImageView fitHeight="42.0" fitWidth="28.0" layoutX="54.0" layoutY="343.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/téléchargement.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
